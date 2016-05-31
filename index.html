@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <meta charset="UTF-8">
+	  <title>Reloj Digital</title>
+	  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	  <link rel="stylesheet" href="css/bootstrap.min.css">
+	  <link rel="stylesheet" href="css/main.css">
+	  <link rel="stylesheet" href="css/utilities.css">
+	  <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600,700' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div class="window">
+		    <div class="header">
+		      <div class="burger-container">
+		        <div id="burger">
+		          <div class="bar topBar"></div>
+		          <div class="bar btmBar"></div>
+		        </div>
+		      </div>
+		      <div class="icon icon-apple"></div>
+		      <ul class="menu">
+		        <li class="menu-item"><input type="checkbox" class="region" name="Chicago" value="0" id="Chicago">Chicago</li>
+		        <li class="menu-item"><input type="checkbox" class="region" name="Sau Paulo" value="1" id="Sau Paulo">Sau Paulo</li>
+				<li class="menu-item"><input type="checkbox" class="region" name="Santiago" value="2" id="Santiago">Santiago</li>
+				<li class="menu-item"><input type="checkbox" class="region" name="México D.F" value="3" id="México">México D.F</li>
+				<li class="menu-item"><input type="checkbox" class="region" name="Caracas" value="4" id="Caracas">Caracas</li>
+				<li class="menu-item"><input type="checkbox" class="region" name="Brasilia" value="5" id="Brasilia">Brasilia</li>
+				<li class="menu-item"><input type="checkbox" class="region" name="Quito" value="6" id="Quito">Quito</li>
+				<li class="menu-item"><input type="checkbox" class="region" name="Guayaquil" value="7" id="Guayaquil">Guayaquil</li>
+				<li class="menu-item"><input type="checkbox" class="region" name="Santa Marta" value="8" id="Santa Marta">Santa Marta</li>
+				<li class="menu-item"><input type="checkbox" class="region" name="Bogotá" value="9" id="Bogotá">Bogotá</li>	
+		      </ul>
+		    </div>
+	    
+	    <div class="box text-center">
+	    	<div class="row">
+	    		<div class="col-xs-12 mt-100">
+		    		<div class="reloj">
+		    			<span id="hora"></span>
+		    			<p id="fecha"></p>
+		    			<div id="otros">
+		    		</div>
+	    		</div>
+	    	</div>
+	    </div>
+	</div>
+		<script   src="https://code.jquery.com/jquery-1.12.3.js"   integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc="   crossorigin="anonymous"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
